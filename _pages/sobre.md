@@ -1,7 +1,6 @@
-```markdown
 ---
 layout: page
-title: Sobre
+title: Sobre o Projeto
 include_in_header: true
 ---
 
@@ -34,4 +33,15 @@ Cada módulo é desenvolvido para proporcionar uma experiência prática e enriq
 Se você está pronto para dar o próximo passo em sua carreira e adquirir habilidades valiosas em DevOps, o **HowToDevOps** é o lugar certo para você. Venha fazer parte de uma comunidade que valoriza o aprendizado contínuo e a troca de experiências. Estamos ansiosos para ajudá-lo em sua jornada!
 
 ---
-```
+
+<div class="downloadButtonsContainer2" style="display: flex; justify-content: center; align-items: center;">
+		<a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="{{ site.url }}/assets/appstore.png"></a>
+
+
+    <link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
+	<a id="robbu-whatsapp-button" class="right" target="_blank" href="https://api.whatsapp.com/send?phone=5521966326414&text=Gostaria%20de%20Saber%20Mais%20sobre%20o%20HowTodevops%0A%0AMeu%20Nome:%20%0AMeu%20Melhor%20Email:%0AMeu%20numero%20de%20telefone:%0AMeu%20cargo%20Atual:%0AMeu%20Sonho%20de%20Carreira:">
+	  <div class="rwb-tooltip">Fale Conosco</div>
+	  <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
+	</a>
+	</div>
+
