@@ -1,0 +1,156 @@
+#page title
+page_title                                : HowToDevOps                                       # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id                                :                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           :                                         # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+
+appstore_link                             : https://teste.de.link.com                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                           # Enter Google Play Store URL.
+presskit_download_link                    :                                        # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+
+app_icon                                  : assets/path2.png                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : HowToDevOps                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 : Mentoria Completa de DevOps.                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Mentoria prática e personalizada para dominar automação, segurança e nuvem, com experiência real e conhecimento atualizado para seu destaque no mercado.
+
+enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
+
+
+# Information About Yourself
+your_name                                 : Rosthan Silva                              
+your_link                                 : https://rosthansilva.com                     
+your_city                                 : Rio de Janeiro                                
+email_address                             : rosthan.silva@nordsh.com
+facebook_username                         :                                           
+instagram_username                        : rosthanlinux
+twitter_username                          : rosthanlinux
+github_username                           : rosthanlinux
+youtube_username                          : rosthanlinux
+mastodon_link                             : https://linkedin.com/in/rosthanlinux
+
+
+
+# Feature List                            Edit, add or remove features to be presented.
+features:
+
+  - title: Introdução à Engenharia de Plataformas
+    description: Compreenda os conceitos básicos e a importância da Engenharia de Plataformas no contexto moderno de desenvolvimento e operações.
+    fontawesome_icon_name: info-circle
+
+  - title: O Papel do Platform Engineer
+    description: Explore as responsabilidades e habilidades necessárias para um Platform Engineer eficaz, fundamental para a entrega de soluções escaláveis.
+    fontawesome_icon_name: user-cog
+
+  - title: Microservices e Arquitetura Baseada em Serviços
+    description: Aprenda sobre a arquitetura de microserviços e como ela permite a construção de aplicações resilientes e escaláveis.
+    fontawesome_icon_name: cubes
+
+  - title: Containerização com Docker
+    description: Descubra como usar Docker para empacotar aplicações e suas dependências, facilitando o desenvolvimento e a implantação.
+    fontawesome_icon_name: cube
+
+  - title: Orquestração com Kubernetes
+    description: Entenda como o Kubernetes gerencia contêineres em produção, permitindo a automação e a escalabilidade de suas aplicações.
+    fontawesome_icon_name: puzzle-piece
+
+  - title: CI/CD e Automação de Pipelines
+    description: Aprenda a implementar integração contínua (CI) e entrega contínua (CD) para acelerar o ciclo de desenvolvimento e melhorar a qualidade do software.
+    fontawesome_icon_name: sync
+
+  - title: Monitoramento e Logging em Ambientes de Plataforma
+    description: Explore técnicas de monitoramento e logging para garantir a performance e a segurança de suas aplicações em ambientes de plataforma.
+    fontawesome_icon_name: eye
+
+  - title: Gestão de Dados em Plataformas
+    description: Compreenda as melhores práticas para armazenamento, persistência e análise de dados em plataformas modernas.
+    fontawesome_icon_name: database
+
+  - title: Segurança em Plataformas
+    description: Conheça as práticas essenciais para garantir a segurança em ambientes de plataforma, incluindo controle de acesso e monitoramento.
+    fontawesome_icon_name: shield-alt
+
+  - title: Escalabilidade e Resiliência em Plataformas
+    description: Aprenda estratégias de escalabilidade horizontal e vertical para garantir que suas aplicações suportem a demanda.
+    fontawesome_icon_name: arrows-alt
+
+  - title: Infraestrutura como Código (IaC)
+    description: Descubra como automatizar a implantação e configuração da infraestrutura usando ferramentas como Terraform e Ansible.
+    fontawesome_icon_name: cloud
+
+  - title: Gestão e Monitoramento de Plataformas
+    description: Explore como definir métricas e monitorar o desempenho das suas aplicações para otimizar a capacidade e o dimensionamento.
+    fontawesome_icon_name: chart-line
+
+  - title: Desafios e Tendências em Engenharia de Plataformas
+    description: Discuta os desafios comuns na engenharia de plataformas e as tendências emergentes, como automação e a adoção de IA.
+    fontawesome_icon_name: lightbulb
+
+
+
+
+# Theme Settings
+topbar_color                              : "#000000"
+topbar_transparency                       : 0.1
+topbar_title_color                        : "#ffffff"
+
+cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#363b3d"
+cover_overlay_transparency                : 0.8
+
+device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+
+body_background_color                     : "#ffffff"
+
+link_color                                : "#1d63ea"
+
+app_title_color                           : "#ffffff"
+app_price_color                           : "#ffffff"
+app_description_color                     : "#ffffff"
+
+feature_title_color                       : "#000000"
+feature_text_color                        : "#666666"
+
+feature_icons_foreground_color            : "#1d63ea"
+feature_icons_background_color            : "#e6e6e6"
+
+social_icons_foreground_color             : "#666666"
+social_icons_background_color             : "#e6e6e6"
+
+footer_text_color                         : "#666666"
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+### Jekyll Configuration. No need to touch this. ###
+####################################################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - LICENSE
+  - README.md
+  - CNAME
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Markdown rendering
+markdown: kramdown
